@@ -1,0 +1,66 @@
+.company-profile-wrapper {
+  min-height: 60vh;
+  padding: 40px 0 80px;
+}
+
+.profile-header-section {
+  margin-bottom: 40px;
+}
+
+.profile-table-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.profile-table th,
+.profile-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.profile-table tr:last-child th,
+.profile-table tr:last-child td {
+  border-bottom: none;
+}
+
+.profile-table th {
+  width: 40%;
+  font-weight: 600;
+  color: #333;
+  background-color: rgba(0, 0, 0, 0.02);
+  border-right: 1px solid var(--border-color);
+}
+
+.profile-table td {
+  color: #555;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .profile-table th,
+  .profile-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .profile-table th {
+    border-right: none;
+    border-bottom: none;
+    padding-bottom: 8px;
+    background-color: transparent;
+  }
+
+  .profile-table td {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+}

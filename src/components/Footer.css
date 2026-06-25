@@ -1,0 +1,151 @@
+.footer {
+  background-color: #e5e5e5;
+  color: #000;
+  padding: 50px 0 0;
+  margin-top: 60px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  color: #000;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contact-info-boxes {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 25px;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-box {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.contact-details {
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.contact-name {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.inquiry-link {
+  color: #000;
+  font-weight: 500;
+}
+
+.footer-address {
+  font-size: 0.95rem;
+  font-style: normal;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.btn-inquiry {
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-inquiry:hover {
+  background-color: var(--primary-color);
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.footer-links li {
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  color: #000;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: var(--primary-color);
+}
+
+.footer-bottom {
+  background-color: #fff;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+}
+
+.footer-bottom-inner {
+  align-items: center;
+}
+
+.copyright-text {
+  font-size: 0.85rem;
+  color: #333;
+  text-align: left;
+}
+
+.copyright-text p {
+  margin-bottom: 5px;
+}
+
+.copyright-text a {
+  color: #000;
+}
+
+.copyright-text a.managed-by {
+  color: blue;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-info-boxes {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .footer-bottom-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .copyright-text {
+    text-align: center;
+  }
+}
