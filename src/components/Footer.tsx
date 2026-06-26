@@ -39,8 +39,8 @@ export default function Footer() {
             </div>
 
             <div className="firm-card">
-              <div className="firm-logo-wrapper text-logo-fallback">
-                <span>GA</span>
+              <div className="firm-logo-wrapper">
+                <Image src="/images/gajanan agro & spare parts.png" alt="Gajanan Agro & Spares" width={70} height={70} className="firm-logo" unoptimized />
               </div>
               <div className="firm-info">
                 <h4>Gajanan Agro &amp; Spares</h4>
