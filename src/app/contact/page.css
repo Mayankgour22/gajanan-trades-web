@@ -170,6 +170,7 @@
   border: 1px solid #f0f0f0;
   width: 100%;
   max-width: 480px;
+  box-sizing: border-box;
 }
 
 .form-card-title {
@@ -246,6 +247,7 @@
   resize: none;
   font-family: inherit;
   transition: border-color 0.2s ease;
+  box-sizing: border-box;
 }
 
 .form-textarea:focus {
@@ -271,6 +273,7 @@
   margin-bottom: 20px;
   background-color: #fff;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .form-group-phone:focus-within {
@@ -330,6 +333,7 @@
   cursor: pointer;
   transition: opacity 0.2s ease;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .btn-contact-now:hover {
@@ -364,11 +368,31 @@
   }
   
   .contact-form-card {
-    padding: 25px 20px;
+    padding: 20px 15px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .form-tabs {
+    gap: 6px;
   }
   
   .tab-btn {
     flex-grow: 1;
     text-align: center;
+    padding: 8px 10px;
+    font-size: 0.75rem;
+    white-space: normal;
+  }
+
+  .phone-prefix-select {
+    padding: 12px 8px;
+    font-size: 0.85rem;
+  }
+
+  .form-phone-input {
+    padding: 12px 10px;
+    min-width: 0;
+    width: 100%;
   }
 }
