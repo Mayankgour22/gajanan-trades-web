@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import './Header.css';
 
 export default function Header() {
@@ -15,9 +16,19 @@ export default function Header() {
     <header className="header glass-panel">
       <div className="container flex-between header-container">
         <div className="logo-section">
-          <Link href="/">
-            <h1 className="logo-text">Gajanan Traders</h1>
-            <p className="logo-subtext">Kartar Agricultural Equipments</p>
+          <Link href="/" className="flex-center" style={{ gap: '10px' }}>
+            <Image 
+              src="/images/gajana traders logo.jpeg" 
+              alt="Gajanan Traders Logo" 
+              width={60} 
+              height={60} 
+              className="header-logo-img" 
+              unoptimized
+            />
+            <div>
+              <h1 className="logo-text" style={{ fontSize: '1.2rem', margin: 0 }}>Gajanan Traders</h1>
+              <p className="logo-subtext" style={{ margin: 0 }}>GROWING THE FUTURE OF FARMING</p>
+            </div>
           </Link>
         </div>
         

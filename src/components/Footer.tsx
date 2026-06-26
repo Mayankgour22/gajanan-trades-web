@@ -1,9 +1,57 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import './Footer.css';
 
 export default function Footer() {
   return (
     <footer className="footer">
+      <div className="footer-group-section">
+        <div className="container">
+          <div className="group-header">
+            <Image src="/images/gajanan group.jpeg" alt="Gajanan Group" width={90} height={90} className="group-logo" unoptimized />
+            <div className="group-header-text">
+              <h2 className="group-title">Gajanan Group</h2>
+              <p className="group-since">Since 2006</p>
+            </div>
+          </div>
+          
+          <div className="firms-grid">
+            <div className="firm-card">
+              <div className="firm-logo-wrapper">
+                <Image src="/images/gajana traders logo.jpeg" alt="Gajanan Traders" width={70} height={70} className="firm-logo" unoptimized />
+              </div>
+              <div className="firm-info">
+                <h4>Gajanan Traders</h4>
+                <p className="firm-year">Year of established 2006</p>
+                <p className="firm-desc">Agriculture combine harvester Dealer</p>
+              </div>
+            </div>
+            
+            <div className="firm-card">
+              <div className="firm-logo-wrapper">
+                <Image src="/images/shree gajanan guru pvt lmt.jpeg" alt="Shri Gajanan Guru Pvt Ltd" width={70} height={70} className="firm-logo" unoptimized />
+              </div>
+              <div className="firm-info">
+                <h4>Shri Gajanan Guru Pvt Ltd</h4>
+                <p className="firm-year">Year of established 2024</p>
+                <p className="firm-desc">Export and trading company</p>
+              </div>
+            </div>
+
+            <div className="firm-card">
+              <div className="firm-logo-wrapper text-logo-fallback">
+                <span>GA</span>
+              </div>
+              <div className="firm-info">
+                <h4>Gajanan Agro &amp; Spares</h4>
+                <p className="firm-year">Year of established 2026</p>
+                <p className="firm-desc">Spare parts dealer &amp; supplier of all type Agriculture machinery</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="container footer-grid">
         <div className="footer-left">
           <h2 className="footer-logo">GAJANAN TRADERS</h2>
@@ -12,7 +60,7 @@ export default function Footer() {
             <div className="contact-box">
               <div className="icon-box">&#128100;</div>
               <div className="contact-details">
-                <p className="contact-name">Mr. Aman Dubey (Sales & Marketing Manager)</p>
+                <p className="contact-name">Mr. Aman Dubey (Sales &amp; Marketing Manager)</p>
                 <p>Mobile : 07971549885</p>
               </div>
             </div>
@@ -48,13 +96,8 @@ export default function Footer() {
       </div>
       
       <div className="footer-bottom">
-        <div className="container flex-between footer-bottom-inner">
-          <div className="tradeindia-logo">
-            <span style={{color: 'red', fontWeight: 'bold'}}>trade</span>
-            <span style={{color: '#f9a826', fontWeight: 'bold'}}>india.</span>
-            <span style={{fontSize: '0.7rem', display: 'block', color: 'blue'}}>Member</span>
-          </div>
-          <div className="copyright-text">
+        <div className="container footer-bottom-inner" style={{ display: 'flex', justifyContent: 'center' }}>
+          <div className="copyright-text" style={{ textAlign: 'center' }}>
             <p>Gajanan Traders All Rights Reserved. <Link href="/terms-of-use" className="footer-link-hover">(Terms of Use)</Link></p>
             <p>Developed and Managed by <span className="managed-by" style={{color: 'var(--primary-color)', fontWeight: '600'}}>Mayank Gour</span></p>
           </div>

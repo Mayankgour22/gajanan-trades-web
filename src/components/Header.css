@@ -25,6 +25,12 @@
   letter-spacing: 1px;
 }
 
+.header-logo-img {
+  border-radius: 50%;
+  object-fit: cover;
+  background: #fff;
+}
+
 .main-nav ul {
   display: flex;
   align-items: center;

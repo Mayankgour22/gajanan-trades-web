@@ -15,7 +15,7 @@
     {
       "title": "Kartar 4000 Deluxe Model",
       "imageSrc": "https://cpimg.tistatic.com/09825144/b/4/Kartar-4000-Deluxe-Combine-Harvester..jpg",
-      "price": "3150000.0 INR",
+      "price": "3300000 INR",
       "specs": {
         "Color": "Green",
         "Delivery Time": "10-15 Days",
@@ -26,7 +26,7 @@
         "Minimum Order Quantity": "1",
         "Payment Terms": "Cash in Advance (CID)",
         "Power Source": "Diesel",
-        "Price": "3150000.0 INR",
+        "Price": "3300000 INR",
         "Product Type": "Combine Harvester",
         "Start Method": "Electric Start",
         "Supply Ability": "50 Per Month",
@@ -40,8 +40,8 @@
     },
     {
       "title": "Kartar 3500 Track Combine Harvester",
-      "imageSrc": "https://cpimg.tistatic.com/09825147/b/4/Kartar-3500-Self-Combine-Harvester..jpg",
-      "price": "2350000 INR",
+      "imageSrc": "https://kartargroup.co.in/wp-content/uploads/2022/09/Untitled-design-5.jpg",
+      "price": "2650000 INR",
       "specs": {
         "Color": "Green",
         "Delivery Time": "10-15 Days",
@@ -52,7 +52,7 @@
         "Minimum Order Quantity": "1",
         "Payment Terms": "Cash in Advance (CID)",
         "Power Source": "Diesel",
-        "Price": "2350000 INR",
+        "Price": "2650000 INR",
         "Product Type": "Combine Harvester",
         "Start Method": "Electric Start",
         "Supply Ability": "50 Per Month",
@@ -67,7 +67,7 @@
     {
       "title": "Kartar 4000 AC Cabin Combine Harvester",
       "imageSrc": "https://cpimg.tistatic.com/09825145/b/4/Kartar-4000-Dlx-Combine-Harvester-With-AC-Cabin..jpg",
-      "price": "3500000 INR",
+      "price": "3850000 INR",
       "specs": {
         "Color": "Green",
         "Delivery Time": "10-15 Days",
@@ -78,7 +78,7 @@
         "Minimum Order Quantity": "1",
         "Payment Terms": "Cash in Advance (CID)",
         "Power Source": "Diesel",
-        "Price": "3500000 INR",
+        "Price": "3850000 INR",
         "Product Type": "Combine Harvester",
         "Start Method": "Electric Start",
         "Supply Ability": "50 Per Month",
@@ -92,8 +92,8 @@
     },
     {
       "title": "Kartar 4000SV Multi Crop Combine Harvester",
-      "imageSrc": "https://cpimg.tistatic.com/09825146/b/4/Kartar-4000-SV-Combine-Harvester..jpg",
-      "price": "3050000.0 INR",
+      "imageSrc": "https://kartargroup.co.in/wp-content/uploads/2022/09/KARTAR-4000sv-Multi-Crop-Combine-Harvester.jpg",
+      "price": "3150000 INR",
       "specs": {
         "Color": "Green",
         "Delivery Time": "10-15 Days",
@@ -104,7 +104,7 @@
         "Minimum Order Quantity": "1",
         "Payment Terms": "Cash in Advance (CID)",
         "Power Source": "Diesel",
-        "Price": "3050000.0 INR",
+        "Price": "3150000 INR",
         "Product Type": "Combine Harvester",
         "Start Method": "Electric Start",
         "Supply Ability": "50 Per Month",
@@ -118,8 +118,8 @@
     },
     {
       "title": "Kartar 4000 Maize Combine Harvester",
-      "imageSrc": "https://cpimg.tistatic.com/09825150/b/4/Kartar-4000-Maize-Combine-Harvester..jpg",
-      "price": "3535000 INR",
+      "imageSrc": "https://kartargroup.co.in/wp-content/uploads/2022/09/KARTAR-4000-Maize-Combine-Harvester.jpg",
+      "price": "4000000 INR",
       "specs": {
         "Color": "Green",
         "Delivery Time": "10-15 Days",
@@ -130,7 +130,7 @@
         "Minimum Order Quantity": "1",
         "Payment Terms": "Cash in Advance (CID)",
         "Power Source": "Diesel",
-        "Price": "3535000 INR",
+        "Price": "4000000 INR",
         "Product Type": "Combine Harvester",
         "Start Method": "Electric Start",
         "Supply Ability": "50 Per Month",
@@ -185,6 +185,24 @@
         "Rear Tyre": "7.50.16",
         "Product Type": "Combine Harvester",
         "General Use": "Agriculture"
+      },
+      "category": "combine-harvester",
+      "categoryName": "Combine Harvester"
+    },
+    {
+      "title": "Kartar Maize Header",
+      "imageSrc": "/images/maize header.jpeg",
+      "price": "925000 INR",
+      "specs": {
+        "Cutting Width": "3650 mm to 3800 mm",
+        "Number of Rows": "5 to 7 rows",
+        "Row Spacing": "460 mm to 610 mm",
+        "Height Adjustment": "Hydraulically operated",
+        "General Use": "Maize Harvesting",
+        "Main Domestic Market": "All India",
+        "Material": "Metal",
+        "Product Type": "Maize Header",
+        "Warranty": "Yes"
       },
       "category": "combine-harvester",
       "categoryName": "Combine Harvester"
