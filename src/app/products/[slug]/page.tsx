@@ -29,11 +29,18 @@ export default function ProductDetailPage() {
   const [mobileNumber, setMobileNumber] = useState<string>('');
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
   const [errorMsg, setErrorMsg] = useState<string>('');
-
-  // Find product by matching slugified title
+  
   const product = useMemo(() => {
     return productsData.products.find(p => slugify(p.title) === slug);
   }, [slug]);
+
+  const [activeImage, setActiveImage] = useState<string>(product?.imageSrc || '');
+
+  React.useEffect(() => {
+    if (product) {
+      setActiveImage(product.imageSrc);
+    }
+  }, [product]);
 
   // Fallback placeholder logic
   const getRequirementPlaceholder = () => {
@@ -110,9 +117,9 @@ export default function ProductDetailPage() {
           {/* Left Column: Image & Inquiry Card */}
           <div className="details-image-column">
             <div className="details-image-card">
-              {product.imageSrc ? (
+              {activeImage ? (
                 <Image
-                  src={product.imageSrc}
+                  src={activeImage}
                   alt={product.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 40vw"
@@ -124,6 +131,26 @@ export default function ProductDetailPage() {
                 <div className="no-image-placeholder">No Image Available</div>
               )}
             </div>
+
+            {/* Thumbnail Gallery */}
+            {product.images && product.images.length > 1 && (
+              <div className="thumbnail-gallery" style={{ display: 'flex', gap: '10px', marginTop: '15px', overflowX: 'auto', paddingBottom: '10px' }}>
+                {product.images.map((img: string, idx: number) => (
+                  <div 
+                    key={idx} 
+                    className={`thumbnail-wrapper ${activeImage === img ? 'active' : ''}`}
+                    onClick={() => setActiveImage(img)}
+                    style={{ 
+                      position: 'relative', width: '80px', height: '80px', flexShrink: 0, 
+                      cursor: 'pointer', border: activeImage === img ? '2px solid var(--primary-color)' : '1px solid #ccc',
+                      borderRadius: '8px', overflow: 'hidden'
+                    }}
+                  >
+                    <Image src={img} alt={`${product.title} thumbnail ${idx + 1}`} fill style={{ objectFit: 'cover' }} unoptimized />
+                  </div>
+                ))}
+              </div>
+            )}
 
             {/* Spec-Specific Inquiry Form Card */}
             <div className="spec-inquiry-card">

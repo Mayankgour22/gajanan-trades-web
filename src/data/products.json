@@ -9,67 +9,11 @@
       "id": "agriculture-rotavator",
       "name": "Agriculture Rotavator",
       "url": "https://www.gajanantraders.in/agriculture-rotavator.html"
-    },
-    {
-      "id": "agricultural-rake-machine",
-      "name": "Agricultural Rake Machine",
-      "url": "https://www.gajanantraders.in/agricultural-wheel-hay-rake-machine-9825153.html"
-    },
-    {
-      "id": "agriculture-seeder-machine",
-      "name": "Agriculture Seeder Machine",
-      "url": "https://www.gajanantraders.in/kartar-super-seeder-machine-9825154.html"
-    },
-    {
-      "id": "two-wheeler-tyres",
-      "name": "Two Wheeler Tyres",
-      "url": "https://www.gajanantraders.in/two-wheeler-tyres.html"
-    },
-    {
-      "id": "agriculture-tyres",
-      "name": "Agriculture Tyres",
-      "url": "https://www.gajanantraders.in/agriculture-tyres.html"
-    },
-    {
-      "id": "fourwheeler-tyres",
-      "name": "Four Wheeler Tyres",
-      "url": "https://www.gajanantraders.in/fourwheelar-tyres.html"
-    },
-    {
-      "id": "industrial-tyres",
-      "name": "Industrial Tyres",
-      "url": "https://www.gajanantraders.in/industrial-tyres.html"
     }
   ],
   "products": [
     {
-      "title": "Kartar 4000 SV Regular Agriculture Combine Harvester",
-      "imageSrc": "https://cpimg.tistatic.com/09825143/b/4/Kartar-4000-SV-Regular-Agriculture-Combine-Harvester..jpg",
-      "price": "3000000.0 INR",
-      "specs": {
-        "Color": "Green",
-        "Delivery Time": "10-15 Days",
-        "Drive Type": "Gear Drive",
-        "General Use": "Agriculture",
-        "Main Domestic Market": "All India",
-        "Material": "Metal",
-        "Minimum Order Quantity": "1",
-        "Payment Terms": "Cash in Advance (CID)",
-        "Power Source": "Diesel",
-        "Price": "3000000.0 INR",
-        "Product Type": "Combine Harvester",
-        "Start Method": "Electric Start",
-        "Supply Ability": "50 Per Month",
-        "Type": "Combine Harvester",
-        "Unit of Measure": "Piece/Pieces",
-        "Unit of Price": "Unit/Units",
-        "Warranty": "Yes"
-      },
-      "category": "combine-harvester",
-      "categoryName": "Combine Harvester"
-    },
-    {
-      "title": "Kartar 4000 Deluxe Combine Harvester",
+      "title": "Kartar 4000 Deluxe Model",
       "imageSrc": "https://cpimg.tistatic.com/09825144/b/4/Kartar-4000-Deluxe-Combine-Harvester..jpg",
       "price": "3150000.0 INR",
       "specs": {
@@ -95,59 +39,7 @@
       "categoryName": "Combine Harvester"
     },
     {
-      "title": "Kartar 4000 Dlx Combine Harvester With AC Cabin",
-      "imageSrc": "https://cpimg.tistatic.com/09825145/b/4/Kartar-4000-Dlx-Combine-Harvester-With-AC-Cabin..jpg",
-      "price": "3500000 INR",
-      "specs": {
-        "Color": "Green",
-        "Delivery Time": "10-15 Days",
-        "Drive Type": "Gear Drive",
-        "General Use": "Agriculture",
-        "Main Domestic Market": "All India",
-        "Material": "Metal",
-        "Minimum Order Quantity": "1",
-        "Payment Terms": "Cash in Advance (CID)",
-        "Power Source": "Diesel",
-        "Price": "3500000 INR",
-        "Product Type": "Combine Harvester",
-        "Start Method": "Electric Start",
-        "Supply Ability": "50 Per Month",
-        "Type": "Combine Harvester",
-        "Unit of Measure": "Unit/Units",
-        "Unit of Price": "Unit/Units",
-        "Warranty": "Yes"
-      },
-      "category": "combine-harvester",
-      "categoryName": "Combine Harvester"
-    },
-    {
-      "title": "Kartar 4000 SV Combine Harvester",
-      "imageSrc": "https://cpimg.tistatic.com/09825146/b/4/Kartar-4000-SV-Combine-Harvester..jpg",
-      "price": "3050000.0 INR",
-      "specs": {
-        "Color": "Green",
-        "Delivery Time": "10-15 Days",
-        "Drive Type": "Gear Drive",
-        "General Use": "Agriculture",
-        "Main Domestic Market": "All India",
-        "Material": "Metal",
-        "Minimum Order Quantity": "1",
-        "Payment Terms": "Cash in Advance (CID)",
-        "Power Source": "Diesel",
-        "Price": "3050000.0 INR",
-        "Product Type": "Combine Harvester",
-        "Start Method": "Electric Start",
-        "Supply Ability": "50 Per Month",
-        "Type": "Combine Harvester",
-        "Unit of Measure": "Unit/Units",
-        "Unit of Price": "Unit/Units",
-        "Warranty": "Yes"
-      },
-      "category": "combine-harvester",
-      "categoryName": "Combine Harvester"
-    },
-    {
-      "title": "Kartar 3500 Self Combine Harvester",
+      "title": "Kartar 3500 Track Combine Harvester",
       "imageSrc": "https://cpimg.tistatic.com/09825147/b/4/Kartar-3500-Self-Combine-Harvester..jpg",
       "price": "2350000 INR",
       "specs": {
@@ -173,9 +65,9 @@
       "categoryName": "Combine Harvester"
     },
     {
-      "title": "Kartar 360 TAF Combine Harvester",
-      "imageSrc": "https://cpimg.tistatic.com/09825148/b/4/Kartar-360-TAF-Combine-Harvester..jpg",
-      "price": "2460000 INR",
+      "title": "Kartar 4000 AC Cabin Combine Harvester",
+      "imageSrc": "https://cpimg.tistatic.com/09825145/b/4/Kartar-4000-Dlx-Combine-Harvester-With-AC-Cabin..jpg",
+      "price": "3500000 INR",
       "specs": {
         "Color": "Green",
         "Delivery Time": "10-15 Days",
@@ -186,7 +78,7 @@
         "Minimum Order Quantity": "1",
         "Payment Terms": "Cash in Advance (CID)",
         "Power Source": "Diesel",
-        "Price": "2460000 INR",
+        "Price": "3500000 INR",
         "Product Type": "Combine Harvester",
         "Start Method": "Electric Start",
         "Supply Ability": "50 Per Month",
@@ -199,9 +91,9 @@
       "categoryName": "Combine Harvester"
     },
     {
-      "title": "Kartar 3500 G Combine Harvester",
-      "imageSrc": "https://cpimg.tistatic.com/09825149/b/4/Kartar-3500-G-Combine-Harvester..jpg",
-      "price": "2350000 INR",
+      "title": "Kartar 4000SV Multi Crop Combine Harvester",
+      "imageSrc": "https://cpimg.tistatic.com/09825146/b/4/Kartar-4000-SV-Combine-Harvester..jpg",
+      "price": "3050000.0 INR",
       "specs": {
         "Color": "Green",
         "Delivery Time": "10-15 Days",
@@ -212,7 +104,7 @@
         "Minimum Order Quantity": "1",
         "Payment Terms": "Cash in Advance (CID)",
         "Power Source": "Diesel",
-        "Price": "2350000 INR",
+        "Price": "3050000.0 INR",
         "Product Type": "Combine Harvester",
         "Start Method": "Electric Start",
         "Supply Ability": "50 Per Month",
@@ -251,7 +143,7 @@
       "categoryName": "Combine Harvester"
     },
     {
-      "title": "Kartar Agriculture Rotavator",
+      "title": "Kartar Rotavator",
       "imageSrc": "https://cpimg.tistatic.com/09825151/b/4/Kartar-Agriculture-Rotavator..jpg",
       "price": "150000.0 INR",
       "specs": {
@@ -275,453 +167,27 @@
       "categoryName": "Agriculture Rotavator"
     },
     {
-      "title": "Agriculture Rotavator Seed Drill",
-      "imageSrc": "https://cpimg.tistatic.com/09825152/b/4/Agriculture-Rotavator-Seed-Drill..jpg",
-      "price": "300000 INR",
+      "title": "Kartar 3500 Mini Combine Harvester",
+      "imageSrc": "/images/kartar-3500-mini-1.jpg",
+      "images": [
+        "/images/kartar-3500-mini-1.jpg",
+        "/images/kartar-3500-mini-2.jpg",
+        "/images/kartar-3500-mini-3.jpg",
+        "/images/kartar-3500-mini-4.jpg"
+      ],
+      "price": "Price on Request",
       "specs": {
-        "Color": "Green",
-        "Delivery Time": "10-15 Days",
-        "General Use": "Agriculture",
-        "Main Domestic Market": "All India",
-        "Material": "Metal",
-        "Minimum Order Quantity": "10",
-        "Price": "300000 INR",
-        "Product Type": "Rotavator Seed Drill",
-        "Start Method": "Electric Start",
-        "Supply Ability": "100 Per Month",
-        "Type": "Combine Harvester",
-        "Unit of Measure": "Unit/Units",
-        "Unit of Price": "Unit/Units",
-        "Warranty": "Yes"
+        "Engine": "Ashok leyland 73 Hp bs4 engine",
+        "Gear Box": "4 speed gear box",
+        "Diesel Tank": "Big diesel tank",
+        "Grain Tank": "Big grain tank",
+        "Front Tyre": "16.9.28",
+        "Rear Tyre": "7.50.16",
+        "Product Type": "Combine Harvester",
+        "General Use": "Agriculture"
       },
-      "category": "agriculture-rotavator",
-      "categoryName": "Agriculture Rotavator"
-    },
-    {
-      "title": "Agricultural Wheel Hay Rake Machine",
-      "imageSrc": "https://cpimg.tistatic.com/09825153/b/4/Agricultural-Wheel-Hay-Rake-Machine..jpg",
-      "price": "380000 INR",
-      "specs": {
-        "Product Type": "Wheel Hay Rake Machine",
-        "General Use": "Agriculture",
-        "Type": "Combine Harvester",
-        "Start Method": "Electric Start",
-        "Material": "Metal",
-        "Color": "Green",
-        "Warranty": "Yes",
-        "Minimum Order Quantity": "10 Units",
-        "Payment Terms": "Cash in Advance (CID)",
-        "Supply Ability": "100 Units  Per Month",
-        "Delivery Time": "10-15 Days",
-        "Main Domestic Market": "All India"
-      },
-      "category": "agricultural-rake-machine",
-      "categoryName": "Agricultural Rake Machine"
-    },
-    {
-      "title": "Kartar Super Seeder Machine",
-      "imageSrc": "https://cpimg.tistatic.com/09825154/b/4/Kartar-Super-Seeder-Machine..jpg",
-      "price": "280000 INR",
-      "specs": {
-        "Product Type": "Seeder Machine",
-        "General Use": "Agriculture",
-        "Type": "Combine Harvester",
-        "Start Method": "Electric Start",
-        "Material": "Metal",
-        "Color": "Green",
-        "Warranty": "Yes",
-        "Minimum Order Quantity": "10 Units",
-        "Payment Terms": "Cash in Advance (CID)",
-        "Supply Ability": "100 Units  Per Month",
-        "Delivery Time": "10-15 Days",
-        "Main Domestic Market": "All India"
-      },
-      "category": "agriculture-seeder-machine",
-      "categoryName": "Agriculture Seeder Machine"
-    },
-    {
-      "title": "Tramplr ST Sports Touring Radial",
-      "imageSrc": "https://cpimg.tistatic.com/10593529/b/4/Tramplr-ST-Sports-Touring-Radial..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Tramplr XR Sports Touring Radial",
-      "imageSrc": "https://cpimg.tistatic.com/10593530/b/4/Tramplr-XR-Sports-Touring-Radial..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Alpha S1 Street Sports",
-      "imageSrc": "https://cpimg.tistatic.com/10593531/b/4/Alpha-S1-Street-Sports..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actizip R5 Acti Series",
-      "imageSrc": "https://cpimg.tistatic.com/10593532/b/4/Actizip-R5-Acti-Series..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actizip F5 Acti Series",
-      "imageSrc": "https://cpimg.tistatic.com/10593533/b/4/Actizip-F5-Acti-Series..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actigrip R4 Acti Series",
-      "imageSrc": "https://cpimg.tistatic.com/10593534/b/4/Actigrip-R4-Acti-Series..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actizip R3 Acti Series",
-      "imageSrc": "https://cpimg.tistatic.com/10593535/b/4/Actizip-R3-Acti-Series..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actizip F3 Acti Series",
-      "imageSrc": "https://cpimg.tistatic.com/10593536/b/4/Actizip-F3-Acti-Series..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actigrip R1 Acti Series",
-      "imageSrc": "https://cpimg.tistatic.com/10593537/b/4/Actigrip-R1-Acti-Series..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actisteer F1 Acti Series",
-      "imageSrc": "https://cpimg.tistatic.com/10593538/b/4/Actisteer-F1-Acti-Series..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actizip F2 Acti Series",
-      "imageSrc": "https://cpimg.tistatic.com/10593539/b/4/Actizip-F2-Acti-Series..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actisteer F7 Acti Series",
-      "imageSrc": "https://cpimg.tistatic.com/10593540/b/4/Actisteer-F7-Acti-Series..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actizip R5 Custom Touring",
-      "imageSrc": "https://cpimg.tistatic.com/10593541/b/4/Actizip-R5-Custom-Touring..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actigrip R4 Custom Touring",
-      "imageSrc": "https://cpimg.tistatic.com/10593542/b/4/Actigrip-R4-Custom-Touring..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actigrip R1 Custom Touring",
-      "imageSrc": "https://cpimg.tistatic.com/10593543/b/4/Actigrip-R1-Custom-Touring..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actigrip R2 Custom Touring",
-      "imageSrc": "https://cpimg.tistatic.com/10593544/b/4/Actigrip-R2-Custom-Touring..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actisteer F1 Custom Touring",
-      "imageSrc": "https://cpimg.tistatic.com/10593545/b/4/Actisteer-F1-Custom-Touring..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Actizip F2 Custom Touring",
-      "imageSrc": "https://cpimg.tistatic.com/10593546/b/4/Actizip-F2-Custom-Touring..jpg",
-      "price": "",
-      "specs": {},
-      "category": "two-wheeler-tyres",
-      "categoryName": "Two Wheeler Tyres"
-    },
-    {
-      "title": "Virat Plus TRACTOR FRONT RANGE",
-      "imageSrc": "https://cpimg.tistatic.com/10808436/b/4/Virat-Plus-TRACTOR-FRONT-RANGE..jpg",
-      "price": "",
-      "specs": {},
-      "category": "agriculture-tyres",
-      "categoryName": "Agriculture Tyres"
-    },
-    {
-      "title": "Virat CR TRACTOR FRONT RANGE",
-      "imageSrc": "https://cpimg.tistatic.com/10808437/b/4/Virat-CR-TRACTOR-FRONT-RANGE..jpg",
-      "price": "",
-      "specs": {},
-      "category": "agriculture-tyres",
-      "categoryName": "Agriculture Tyres"
-    },
-    {
-      "title": "Virat 4R TRACTOR FRONT RANGE",
-      "imageSrc": "https://cpimg.tistatic.com/10808438/b/4/Virat-4R-TRACTOR-FRONT-RANGE..jpg",
-      "price": "",
-      "specs": {},
-      "category": "agriculture-tyres",
-      "categoryName": "Agriculture Tyres"
-    },
-    {
-      "title": "Krishak Gold TRACTOR REAR RANGE",
-      "imageSrc": "https://cpimg.tistatic.com/10808439/b/4/Krishak-Gold-TRACTOR-REAR-RANGE..jpg",
-      "price": "",
-      "specs": {},
-      "category": "agriculture-tyres",
-      "categoryName": "Agriculture Tyres"
-    },
-    {
-      "title": "Virat TRACTOR REAR RANGE",
-      "imageSrc": "https://cpimg.tistatic.com/10808440/b/4/Virat-TRACTOR-REAR-RANGE..jpg",
-      "price": "",
-      "specs": {},
-      "category": "agriculture-tyres",
-      "categoryName": "Agriculture Tyres"
-    },
-    {
-      "title": "Virat 23 TRACTOR REAR RANGE",
-      "imageSrc": "https://cpimg.tistatic.com/10808441/b/4/Virat-23-TRACTOR-REAR-RANGE..jpg",
-      "price": "",
-      "specs": {},
-      "category": "agriculture-tyres",
-      "categoryName": "Agriculture Tyres"
-    },
-    {
-      "title": "Agrex 85 TRACTOR REAR RANGE",
-      "imageSrc": "https://cpimg.tistatic.com/10808442/b/4/Agrex-85-TRACTOR-REAR-RANGE..jpg",
-      "price": "",
-      "specs": {},
-      "category": "agriculture-tyres",
-      "categoryName": "Agriculture Tyres"
-    },
-    {
-      "title": "Farmking TRACTOR REAR RANGE",
-      "imageSrc": "https://cpimg.tistatic.com/10808443/b/4/Farmking-TRACTOR-REAR-RANGE..jpg",
-      "price": "",
-      "specs": {},
-      "category": "agriculture-tyres",
-      "categoryName": "Agriculture Tyres"
-    },
-    {
-      "title": "Audi A4 Tyre Fitment",
-      "imageSrc": "https://cpimg.tistatic.com/10808450/b/4/Audi-A4-Tyre-Fitment..jpg",
-      "price": "",
-      "specs": {},
-      "category": "fourwheeler-tyres",
-      "categoryName": "Four Wheeler Tyres"
-    },
-    {
-      "title": "Audi A5 Tyre Fitment",
-      "imageSrc": "https://cpimg.tistatic.com/10808451/b/4/Audi-A5-Tyre-Fitment..jpg",
-      "price": "",
-      "specs": {},
-      "category": "fourwheeler-tyres",
-      "categoryName": "Four Wheeler Tyres"
-    },
-    {
-      "title": "Audi A6 Tyre Fitment",
-      "imageSrc": "https://cpimg.tistatic.com/10808452/b/4/Audi-A6-Tyre-Fitment..jpg",
-      "price": "",
-      "specs": {},
-      "category": "fourwheeler-tyres",
-      "categoryName": "Four Wheeler Tyres"
-    },
-    {
-      "title": "Audi A8 Tyre Fitment",
-      "imageSrc": "https://cpimg.tistatic.com/10808453/b/4/Audi-A8-Tyre-Fitment..jpg",
-      "price": "",
-      "specs": {},
-      "category": "fourwheeler-tyres",
-      "categoryName": "Four Wheeler Tyres"
-    },
-    {
-      "title": "Audi Q7 Tyre Fitment",
-      "imageSrc": "https://cpimg.tistatic.com/10808454/b/4/Audi-Q7-Tyre-Fitment..jpg",
-      "price": "",
-      "specs": {},
-      "category": "fourwheeler-tyres",
-      "categoryName": "Four Wheeler Tyres"
-    },
-    {
-      "title": "Audi R8 Tyre Fitment",
-      "imageSrc": "https://cpimg.tistatic.com/10808455/b/4/Audi-R8-Tyre-Fitment..jpg",
-      "price": "",
-      "specs": {},
-      "category": "fourwheeler-tyres",
-      "categoryName": "Four Wheeler Tyres"
-    },
-    {
-      "title": "Audi TT Tyre Fitment",
-      "imageSrc": "https://cpimg.tistatic.com/10808456/b/4/Audi-TT-Tyre-Fitment..jpg",
-      "price": "",
-      "specs": {},
-      "category": "fourwheeler-tyres",
-      "categoryName": "Four Wheeler Tyres"
-    },
-    {
-      "title": "BMW 5 Series Tyre Fitment",
-      "imageSrc": "https://cpimg.tistatic.com/10808457/b/4/BMW-5-Series-Tyre-Fitment..jpg",
-      "price": "",
-      "specs": {},
-      "category": "fourwheeler-tyres",
-      "categoryName": "Four Wheeler Tyres"
-    },
-    {
-      "title": "BMW 6 Series Tyre Fitment",
-      "imageSrc": "https://cpimg.tistatic.com/10808458/b/4/BMW-6-Series-Tyre-Fitment..jpg",
-      "price": "",
-      "specs": {},
-      "category": "fourwheeler-tyres",
-      "categoryName": "Four Wheeler Tyres"
-    },
-    {
-      "title": "BMW 7 Series Tyre Fitment",
-      "imageSrc": "https://cpimg.tistatic.com/10808459/b/4/BMW-7-Series-Tyre-Fitment..jpg",
-      "price": "",
-      "specs": {},
-      "category": "fourwheeler-tyres",
-      "categoryName": "Four Wheeler Tyres"
-    },
-    {
-      "title": "BMW M Series Tyre Fitment",
-      "imageSrc": "https://cpimg.tistatic.com/10808460/b/4/BMW-M-Series-Tyre-Fitment..jpg",
-      "price": "",
-      "specs": {},
-      "category": "fourwheeler-tyres",
-      "categoryName": "Four Wheeler Tyres"
-    },
-    {
-      "title": "YLON BACKHOE LOADER REAR",
-      "imageSrc": "https://cpimg.tistatic.com/10808464/b/4/YLON-BACKHOE-LOADER-REAR..jpg",
-      "price": "",
-      "specs": {},
-      "category": "industrial-tyres",
-      "categoryName": "Industrial Tyres"
-    },
-    {
-      "title": "Terra BHL BACKHOE LOADER REAR",
-      "imageSrc": "https://cpimg.tistatic.com/10808465/b/4/Terra-BHL-BACKHOE-LOADER-REAR..jpg",
-      "price": "",
-      "specs": {},
-      "category": "industrial-tyres",
-      "categoryName": "Industrial Tyres"
-    },
-    {
-      "title": "AIT 416 BACKHOE LOADER REAR",
-      "imageSrc": "https://cpimg.tistatic.com/10808466/b/4/AIT-416-BACKHOE-LOADER-REAR..jpg",
-      "price": "",
-      "specs": {},
-      "category": "industrial-tyres",
-      "categoryName": "Industrial Tyres"
-    },
-    {
-      "title": "AIT 426 BACKHOE LOADER REAR",
-      "imageSrc": "https://cpimg.tistatic.com/10808467/b/4/AIT-426-BACKHOE-LOADER-REAR..jpg",
-      "price": "",
-      "specs": {},
-      "category": "industrial-tyres",
-      "categoryName": "Industrial Tyres"
-    },
-    {
-      "title": "AIT 406 BACKHOE LOADER FRONT",
-      "imageSrc": "https://cpimg.tistatic.com/10808468/b/4/AIT-406-BACKHOE-LOADER-FRONT..jpg",
-      "price": "",
-      "specs": {},
-      "category": "industrial-tyres",
-      "categoryName": "Industrial Tyres"
-    },
-    {
-      "title": "TERRA BHL BACKHOE LOADER FRONT",
-      "imageSrc": "https://cpimg.tistatic.com/10808469/b/4/TERRA-BHL-BACKHOE-LOADER-FRONT..jpg",
-      "price": "",
-      "specs": {},
-      "category": "industrial-tyres",
-      "categoryName": "Industrial Tyres"
-    },
-    {
-      "title": "TERRA RIB BACKHOE LOADER FRONT",
-      "imageSrc": "https://cpimg.tistatic.com/10808470/b/4/TERRA-RIB-BACKHOE-LOADER-FRONT..jpg",
-      "price": "",
-      "specs": {},
-      "category": "industrial-tyres",
-      "categoryName": "Industrial Tyres"
-    },
-    {
-      "title": "YLON BACKHOE LOADER FRONT",
-      "imageSrc": "https://cpimg.tistatic.com/10808471/b/4/YLON-BACKHOE-LOADER-FRONT..jpg",
-      "price": "",
-      "specs": {},
-      "category": "industrial-tyres",
-      "categoryName": "Industrial Tyres"
-    },
-    {
-      "title": "Terra Crane Tyre BACKHOE LOADER FRONT",
-      "imageSrc": "https://cpimg.tistatic.com/10808472/b/4/Terra-Crane-Tyre-BACKHOE-LOADER-FRONT..jpg",
-      "price": "",
-      "specs": {},
-      "category": "industrial-tyres",
-      "categoryName": "Industrial Tyres"
-    },
-    {
-      "title": "Terra Roller Tyre",
-      "imageSrc": "https://cpimg.tistatic.com/10808473/b/4/Terra-Roller-Tyre..jpg",
-      "price": "",
-      "specs": {},
-      "category": "industrial-tyres",
-      "categoryName": "Industrial Tyres"
-    },
-    {
-      "title": "FX 525 TELEHANDLER",
-      "imageSrc": "https://cpimg.tistatic.com/10808474/b/4/FX-525-TELEHANDLER..jpg",
-      "price": "",
-      "specs": {},
-      "category": "industrial-tyres",
-      "categoryName": "Industrial Tyres"
+      "category": "combine-harvester",
+      "categoryName": "Combine Harvester"
     }
   ]
 }

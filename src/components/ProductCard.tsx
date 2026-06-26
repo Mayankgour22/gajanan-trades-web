@@ -1,4 +1,8 @@
+"use client";
+
 import Image from 'next/image';
+import { motion } from 'framer-motion';
+import { ArrowRight, Settings } from 'lucide-react';
 import './ProductCard.css';
 
 interface ProductCardProps {
@@ -10,7 +14,11 @@ interface ProductCardProps {
 
 export default function ProductCard({ title, imageSrc, description, hideDescription = false }: ProductCardProps) {
   return (
-    <div className={`product-card ${hideDescription ? 'simple-card' : ''}`}>
+    <motion.div 
+      className={`product-card ${hideDescription ? 'simple-card' : ''}`}
+      whileHover={{ y: -8, boxShadow: '0 20px 40px rgba(0, 0, 0, 0.08)' }}
+      transition={{ duration: 0.3 }}
+    >
       <div className="product-image-wrapper">
         <Image 
           src={imageSrc} 
@@ -19,6 +27,14 @@ export default function ProductCard({ title, imageSrc, description, hideDescript
           className="product-image"
           unoptimized
         />
+        <div className="product-overlay">
+           <motion.div 
+             className="view-icon"
+             whileHover={{ rotate: 90 }}
+           >
+              <Settings size={24} color="#fff" />
+           </motion.div>
+        </div>
       </div>
       <div className="product-content">
         <h3 className="product-title">{title}</h3>
@@ -26,9 +42,15 @@ export default function ProductCard({ title, imageSrc, description, hideDescript
           <p className="product-desc">{description}</p>
         )}
         {!hideDescription && (
-          <button className="btn-secondary product-btn">View Details</button>
+          <motion.button 
+            className="btn-secondary product-btn"
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+          >
+            View Details <ArrowRight size={16} style={{marginLeft: '8px'}} />
+          </motion.button>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }

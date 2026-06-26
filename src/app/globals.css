@@ -2,20 +2,22 @@
 
 :root {
   /* Color Palette */
-  --primary-color: #e82e02; /* Red from the original site */
-  --secondary-color: #641c41;
-  --dark-bg: #111111;
-  --light-bg: #f9f9f9;
-  --text-dark: #000000;
+  --primary-color: #064e3b; /* Deep Forest Green */
+  --secondary-color: #047857; /* Emerald Green */
+  --accent-color: #f59e0b; /* Harvest Gold */
+  --dark-bg: #0f172a;
+  --light-bg: #f8fafc;
+  --text-dark: #0f172a;
   --text-light: #ffffff;
-  --border-color: #e0e0e0;
+  --border-color: #e2e8f0;
   
   /* Layout */
   --max-width: 1200px;
   --header-height: 80px;
 
   /* Typography */
-  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: var(--font-outfit), system-ui, -apple-system, sans-serif;
+  --font-body: var(--font-inter), system-ui, -apple-system, sans-serif;
 }
 
 /* Reset and Base Styles */
@@ -26,11 +28,15 @@
 }
 
 body {
-  font-family: var(--font-family);
+  font-family: var(--font-body);
   background-color: var(--light-bg);
   color: var(--text-dark);
   line-height: 1.6;
   overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
 }
 
 a {
@@ -77,13 +83,15 @@ ul {
 
 /* Typography Utilities */
 .section-title {
-  font-size: 2rem;
-  font-weight: 700;
+  font-family: var(--font-heading);
+  font-size: 2.5rem;
+  font-weight: 800;
   text-align: center;
   margin-bottom: 2rem;
-  color: var(--text-dark);
-  text-transform: uppercase;
+  color: var(--primary-color);
+  text-transform: capitalize;
   position: relative;
+  letter-spacing: -0.02em;
 }
 
 .section-title::after {
@@ -97,23 +105,26 @@ ul {
 
 /* Buttons */
 .btn-primary {
-  display: inline-block;
-  background: linear-gradient(135deg, var(--primary-color) 0%, #ff4b1f 100%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, var(--accent-color) 0%, #d97706 100%);
   color: var(--text-light);
-  padding: 12px 28px;
+  padding: 14px 32px;
+  font-family: var(--font-heading);
   font-weight: 600;
-  border-radius: 30px;
+  font-size: 1.05rem;
+  border-radius: 50px;
   border: none;
   cursor: pointer;
-  transition: all 0.3s ease;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  box-shadow: 0 4px 15px rgba(232, 46, 2, 0.3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
 }
 
 .btn-primary:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(232, 46, 2, 0.4);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(245, 158, 11, 0.4);
   color: var(--text-light);
 }
 

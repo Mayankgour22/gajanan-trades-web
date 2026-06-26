@@ -59,7 +59,7 @@ export default function TermsOfUsePage() {
             <section id="license" className="terms-section">
               <h2>3. Mobile Application License Grant</h2>
               <p>
-                Subject to your compliance with these Terms, Gajanan Traders grants you a limited, non-exclusive, non-transferable, revocable license to download, install, and use our mobile application on a compatible mobile device owned or controlled by you, solely for your personal, non-commercial use in connection with purchasing or browsing agricultural machinery and tyres.
+                Subject to your compliance with these Terms, Gajanan Traders grants you a limited, non-exclusive, non-transferable, revocable license to download, install, and use our mobile application on a compatible mobile device owned or controlled by you, solely for your personal, non-commercial use in connection with purchasing or browsing agricultural machinery.
               </p>
               <p>You agree not to:</p>
               <ul>
