@@ -37,10 +37,10 @@ export default function ProductDetailPage() {
   const [activeImage, setActiveImage] = useState<string>(product?.imageSrc || '');
 
   React.useEffect(() => {
-    if (product) {
+    if (product?.imageSrc) {
       setActiveImage(product.imageSrc);
     }
-  }, [product]);
+  }, [product?.imageSrc]);
 
   // Fallback placeholder logic
   const getRequirementPlaceholder = () => {
