@@ -59,9 +59,10 @@ export default function ContactPage() {
           </div>
           <div className="branding-right">
             <div className="phone-icon-circle">&#128222;</div>
-            <div className="branding-call-now">
+            <div className="branding-call-now" style={{ display: 'flex', flexDirection: 'column' }}>
               <span className="call-label">Call us now</span>
-              <span className="call-number">07971549885</span>
+              <span className="call-number" style={{ fontSize: '13px', lineHeight: '1.2' }}>+91-9406973436</span>
+              <span className="call-number" style={{ fontSize: '13px', lineHeight: '1.2' }}>+91-9644868236</span>
             </div>
           </div>
         </div>
@@ -85,7 +86,7 @@ export default function ContactPage() {
               <div className="details-item">
                 <span className="details-icon">&#128241;</span>
                 <div className="details-text">
-                  <p>Mobile : +91 7971549885</p>
+                  <p>Mobile : +91-9406973436, +91-9644868236</p>
                 </div>
               </div>
 
@@ -99,9 +100,12 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="call-me-free-container">
-              <a href="tel:07971549885" className="btn-call-me-free">
-                CALL ME FREE
+            <div className="call-me-free-container" style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              <a href="tel:+919406973436" className="btn-call-me-free" style={{ margin: 0, textAlign: 'center' }}>
+                CALL +91-9406973436
+              </a>
+              <a href="tel:+919644868236" className="btn-call-me-free" style={{ margin: 0, textAlign: 'center' }}>
+                CALL +91-9644868236
               </a>
             </div>
           </div>

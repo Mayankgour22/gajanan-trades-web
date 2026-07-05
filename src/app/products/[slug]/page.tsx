@@ -267,9 +267,14 @@ export default function ProductDetailPage() {
             <div className="details-support-widget">
               <h3>Need Help Ordering?</h3>
               <p>For instant assistance, you can call us directly:</p>
-              <a href="tel:07971549885" className="direct-call-link">
-                &#9742; +91 79715 49885
-              </a>
+              <div style={{ marginTop: '12px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                <a href="tel:+919406973436" className="direct-call-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+                  &#9742; +91-9406973436
+                </a>
+                <a href="tel:+919644868236" className="direct-call-link" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+                  &#9742; +91-9644868236
+                </a>
+              </div>
             </div>
           </div>
 

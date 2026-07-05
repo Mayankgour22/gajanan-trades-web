@@ -61,7 +61,7 @@ export default function Footer() {
               <div className="icon-box">&#128100;</div>
               <div className="contact-details">
                 <p className="contact-name">Mr. Aman Dubey (Sales &amp; Marketing Manager)</p>
-                <p>Mobile : 07971549885</p>
+                <p>Mobile : +91-9406973436, +91-9644868236</p>
               </div>
             </div>
             
