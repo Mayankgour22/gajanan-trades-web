@@ -63,9 +63,11 @@ export default function ProductDetailPage() {
     setErrorMsg('');
   };
 
-  const handleInquirySubmit = (e: React.FormEvent) => {
+  const handleInquirySubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMsg('');
+
+    const finalRequirement = requirementText.trim() || getRequirementPlaceholder();
 
     if (!mobileNumber.trim()) {
       setErrorMsg('Mobile No. is needed for Inquiry.');
@@ -77,7 +79,30 @@ export default function ProductDetailPage() {
       return;
     }
 
-    setIsSubmitted(true);
+    try {
+      const apiBase = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+      const response = await fetch(`${apiBase}/api/inquiries`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          type: selectedTab,
+          requirement: finalRequirement,
+          mobile: `+91 ${mobileNumber.trim()}`
+        }),
+      });
+
+      if (!response.ok) {
+        const errData = await response.json();
+        throw new Error(errData.error || 'Failed to submit inquiry.');
+      }
+
+      setIsSubmitted(true);
+    } catch (err: any) {
+      console.error(err);
+      setErrorMsg(err.message || 'Server connection error. Please try again.');
+    }
   };
 
   if (!product) {
