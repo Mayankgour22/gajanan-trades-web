@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import { API_BASE_URL } from '@/config';
 import './page.css';
 
 export default function ContactPage() {
@@ -46,8 +47,7 @@ export default function ContactPage() {
     }
 
     try {
-      const apiBase = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
-      const response = await fetch(`${apiBase}/api/inquiries`, {
+      const response = await fetch(`${API_BASE_URL}/api/inquiries`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

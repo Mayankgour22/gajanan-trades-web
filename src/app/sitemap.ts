@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
+import { API_BASE_URL as API_URL } from '@/config';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
 const BASE_URL = 'https://gajanantraders.com';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
