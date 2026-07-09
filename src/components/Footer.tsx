@@ -98,8 +98,17 @@ export default function Footer() {
       <div className="footer-bottom">
         <div className="container footer-bottom-inner" style={{ display: 'flex', justifyContent: 'center' }}>
           <div className="copyright-text" style={{ textAlign: 'center' }}>
-            <p>Gajanan Traders All Rights Reserved. <Link href="/terms-of-use" className="footer-link-hover">(Terms of Use)</Link></p>
-            <p>Developed and Managed by <span className="managed-by" style={{color: 'var(--primary-color)', fontWeight: '600'}}>Mayank Gour</span></p>
+            <p>Gajanan Traders All Rights Reserved.</p>
+            <p style={{ marginTop: '6px', fontSize: '0.85rem', display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap' }}>
+              <Link href="/terms-of-use" className="footer-link-hover">Terms of Use</Link>
+              <span>|</span>
+              <Link href="/privacy-policy" className="footer-link-hover">Privacy Policy</Link>
+              <span>|</span>
+              <Link href="/refund-policy" className="footer-link-hover">Refund &amp; Cancellation</Link>
+              <span>|</span>
+              <Link href="/shipping-policy" className="footer-link-hover">Shipping &amp; Delivery</Link>
+            </p>
+            <p style={{ marginTop: '8px' }}>Developed and Managed by <span className="managed-by" style={{color: 'var(--primary-color)', fontWeight: '600'}}>Mayank Gour</span></p>
           </div>
         </div>
       </div>
