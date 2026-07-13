@@ -53,7 +53,7 @@ export default function RefundPolicyPage() {
             <section id="harvester-booking" className="terms-section">
               <h2>2. Harvester Bookings</h2>
               <p>
-                Harvester bookings require a token/booking down-payment to secure your order from the manufacturer (e.g., Kartar Agri). 
+                Harvester bookings require a token/booking down-payment to secure your order from the manufacturer (e.g., Kartar Agri).
               </p>
               <ul>
                 <li><strong>Cancellation Period:</strong> Bookings can be cancelled within 48 hours of payment for a full refund of the booking amount.</li>
@@ -116,7 +116,7 @@ export default function RefundPolicyPage() {
                 <p>Railway Station Road, In front of Hotel Raj Residency,</p>
                 <p>Harda - 461331, Madhya Pradesh, India</p>
                 <p>Mobile: +91 9406973436, +91 9644868236</p>
-                <p>Email: contact@gajanantraders.in</p>
+                <p>Email:  gajanantradersgt@gmail.com</p>
               </div>
             </section>
           </div>

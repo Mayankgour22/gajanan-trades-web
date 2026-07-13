@@ -118,7 +118,7 @@ export default function PrivacyPolicyPage() {
                 <p>Railway Station Road, In front of Hotel Raj Residency,</p>
                 <p>Harda - 461331, Madhya Pradesh, India</p>
                 <p>Mobile: +91 9406973436, +91 9644868236</p>
-                <p>Email: contact@gajanantraders.in</p>
+                <p>Email: gajanantradersgt@gmail.com</p>
               </div>
             </section>
           </div>

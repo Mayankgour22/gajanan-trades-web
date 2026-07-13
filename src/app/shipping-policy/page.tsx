@@ -106,7 +106,7 @@ export default function ShippingPolicyPage() {
             <section id="damaged-goods" className="terms-section">
               <h2>7. Damaged or Lost Shipments</h2>
               <p>
-                If you receive your order damaged, please document the damage by taking photos or videos before opening the package and contact our support team immediately. 
+                If you receive your order damaged, please document the damage by taking photos or videos before opening the package and contact our support team immediately.
               </p>
               <ul>
                 <li>Please save all packaging materials and damaged goods before filing a return claim.</li>
@@ -124,7 +124,7 @@ export default function ShippingPolicyPage() {
                 <p>Railway Station Road, In front of Hotel Raj Residency,</p>
                 <p>Harda - 461331, Madhya Pradesh, India</p>
                 <p>Mobile: +91 9406973436, +91 9644868236</p>
-                <p>Email: contact@gajanantraders.in</p>
+                <p>Email: gajanantradersgt@gmail.com</p>
               </div>
             </section>
           </div>
