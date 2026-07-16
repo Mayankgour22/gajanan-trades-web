@@ -15,8 +15,16 @@ export default function CompanyProfile() {
             <table className="profile-table">
               <tbody>
                 <tr>
+                  <th>Legal Name of Business</th>
+                  <td><strong>MAHENDRA KUMAR DUBEY</strong></td>
+                </tr>
+                <tr>
+                  <th>Trade Name</th>
+                  <td>Gajanan Traders</td>
+                </tr>
+                <tr>
                   <th>Business Type</th>
-                  <td>Dealer, Supplier, and Service Provider</td>
+                  <td>Proprietorship — Dealer, Supplier, and Service Provider</td>
                 </tr>
                 <tr>
                   <th>Location of the Company</th>

@@ -98,7 +98,7 @@ export default function Footer() {
       <div className="footer-bottom">
         <div className="container footer-bottom-inner" style={{ display: 'flex', justifyContent: 'center' }}>
           <div className="copyright-text" style={{ textAlign: 'center' }}>
-            <p>Gajanan Traders All Rights Reserved.</p>
+            <p>Gajanan Traders — Legal Name: <strong>MAHENDRA KUMAR DUBEY</strong> (Proprietorship) | All Rights Reserved.</p>
             <p style={{ marginTop: '6px', fontSize: '0.85rem', display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap' }}>
               <Link href="/terms-of-use" className="footer-link-hover">Terms of Use</Link>
               <span>|</span>
