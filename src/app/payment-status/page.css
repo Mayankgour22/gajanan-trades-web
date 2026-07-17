@@ -1,0 +1,321 @@
+/* Payment Status Styles */
+
+.payment-status-wrapper {
+  padding: 60px 0;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  background-color: var(--light-bg);
+}
+
+.status-container {
+  max-width: 680px;
+  width: 100%;
+}
+
+.status-card {
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.status-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.status-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+/* Success Pulse Animation */
+.success-pulse {
+  background-color: rgba(34, 197, 94, 0.1);
+  box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4);
+  animation: pulseSuccess 2s infinite;
+}
+
+@keyframes pulseSuccess {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
+  70% { transform: scale(1); box-shadow: 0 0 0 15px rgba(34, 197, 94, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+}
+
+/* Failure Pulse Animation */
+.failure-pulse {
+  background-color: rgba(239, 68, 68, 0.1);
+  box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4);
+  animation: pulseFailure 2s infinite;
+}
+
+@keyframes pulseFailure {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+  70% { transform: scale(1); box-shadow: 0 0 0 15px rgba(239, 68, 68, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+}
+
+.status-main-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.status-main-title.text-red {
+  color: #ef4444;
+}
+
+.status-desc {
+  font-size: 1rem;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.status-divider {
+  border: 0;
+  height: 1px;
+  background-color: var(--border-color);
+  margin: 30px 0;
+}
+
+/* Receipt Details */
+.receipt-box {
+  background-color: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.receipt-header {
+  background-color: #f8fafc;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.receipt-header h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.receipt-ref-id {
+  font-size: 0.85rem;
+  color: #64748b;
+  font-weight: 600;
+}
+
+.receipt-body {
+  padding: 16px 24px;
+}
+
+.receipt-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.receipt-table td {
+  padding: 10px 0;
+  font-size: 0.92rem;
+  color: #475569;
+}
+
+.receipt-table td.label {
+  width: 40%;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.receipt-table td.value {
+  width: 60%;
+  text-align: right;
+  color: var(--text-dark);
+}
+
+.receipt-table tr:not(:last-child) {
+  border-bottom: 1px dashed #f1f5f9;
+}
+
+.receipt-table td.price {
+  color: var(--primary-color);
+  font-size: 1.05rem;
+}
+
+.font-bold {
+  font-weight: 700 !important;
+}
+
+.badge {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.badge.paid {
+  background-color: #dcfce7;
+  color: #15803d;
+}
+
+/* Action Info Box */
+.action-info-box {
+  background-color: #f0fdf4;
+  border: 1px dashed #bbf7d0;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 30px;
+}
+
+.action-info-box h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #166534;
+  margin-bottom: 8px;
+}
+
+.action-info-box p {
+  font-size: 0.9rem;
+  color: #14532d;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.direct-contacts {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn-contact-call {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #ffffff;
+  color: #166534;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border: 1px solid #bbf7d0;
+  transition: all 0.2s ease;
+}
+
+.btn-contact-call:hover {
+  background-color: #15803d;
+  color: #ffffff;
+  border-color: #15803d;
+}
+
+/* Failure Card Info */
+.failed-info-box {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 30px;
+}
+
+.failed-info-box h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #991b1b;
+  margin-bottom: 10px;
+}
+
+.failed-info-box ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.failed-info-box li {
+  font-size: 0.9rem;
+  color: #7f1d1d;
+  margin-bottom: 8px;
+}
+
+/* Actions */
+.status-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn-primary-action {
+  background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.btn-primary-action.retry {
+  background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%);
+}
+
+.btn-primary-action:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+.btn-secondary-action {
+  border: 1px solid #cbd5e1;
+  background-color: #ffffff;
+  color: #475569;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.btn-secondary-action:hover {
+  background-color: #f8fafc;
+  color: var(--text-dark);
+}
+
+@media (max-width: 576px) {
+  .status-card {
+    padding: 24px 16px;
+  }
+  .status-actions {
+    flex-direction: column;
+  }
+  .btn-secondary-action, .btn-primary-action {
+    width: 100%;
+    justify-content: center;
+  }
+  .direct-contacts {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .btn-contact-call {
+    width: 100%;
+    justify-content: center;
+  }
+}

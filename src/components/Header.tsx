@@ -42,6 +42,7 @@ export default function Header() {
           <ul>
             <li><Link href="/" onClick={() => setIsMenuOpen(false)}>Home</Link></li>
             <li><Link href="/products" onClick={() => setIsMenuOpen(false)}>Products</Link></li>
+            <li><Link href="/checkout" onClick={() => setIsMenuOpen(false)}>Pre-Book</Link></li>
             <li><Link href="/company-profile" onClick={() => setIsMenuOpen(false)}>Company Profile</Link></li>
             <li><Link href="/contact" className="btn-primary" onClick={() => setIsMenuOpen(false)}>Contact Us</Link></li>
             <li>

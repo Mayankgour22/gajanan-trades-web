@@ -266,6 +266,42 @@ export default function ProductDetailPage() {
               </span>
             </div>
 
+            {/* Pre-Book Now CTA Button */}
+            {(() => {
+              const bookingPrice = product.category === 'combine-harvester' 
+                ? 21000 
+                : product.category === 'agriculture-rotavator'
+                  ? 5000
+                  : 0;
+
+              if (bookingPrice === 0) return null;
+
+              return (
+                <div className="pre-book-button-wrapper" style={{ marginTop: '20px', marginBottom: '25px' }}>
+                  <Link 
+                    href={`/checkout?product=${slug}`} 
+                    className="btn-primary" 
+                    style={{ 
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      justifyContent: 'center', 
+                      width: '100%', 
+                      padding: '16px 24px',
+                      fontSize: '1.1rem',
+                      textTransform: 'uppercase',
+                      letterSpacing: '0.05em',
+                      borderRadius: '8px'
+                    }}
+                  >
+                    Pre-Book Now (Pay ₹{bookingPrice.toLocaleString('en-IN')})
+                  </Link>
+                  <p style={{ fontSize: '0.85rem', color: '#64748b', marginTop: '8px', textAlign: 'center' }}>
+                    Secure your booking with a ₹{bookingPrice.toLocaleString('en-IN')} token amount.
+                  </p>
+                </div>
+              );
+            })()}
+
             {/* Specifications Card */}
             <div className="details-specifications-card">
               <h2>Product Specifications</h2>
